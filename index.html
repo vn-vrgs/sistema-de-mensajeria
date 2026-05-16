@@ -1,110 +1,146 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Mensajería</title>
-
-    <!-- Vinculación CSS -->
-    <link rel="stylesheet" href="./assets/style.css">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sistema de Mensajería</title>
+        <!-- Font Awesome -->
+        <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+
 <body>
 
     <div class="container">
 
-        <!-- Sidebar -->
+        <!-- SIDEBAR -->
         <aside class="sidebar">
 
             <!-- Usuario -->
-            <div class="user-status">
+            <div class="user-status box">
 
                 <div class="user-info">
-                    <img src="https://i.pravatar.cc/100?img=12" alt="usuario">
-
+                    <div>
+                        <img src="https://i.pravatar.cc/100?img=12" alt="Usuario">
+                    </div>
                     <div class="user-text">
-                        <h4>Maria</h4>
+                        <h4>Mario</h4>
                         <p>Activa ahora</p>
                     </div>
                 </div>
 
-                <div class="icons">
+                <div class="user-icons">
                     <i class="fa-regular fa-message"></i>
                     <i class="fa-solid fa-bars"></i>
                 </div>
-
             </div>
 
-            <!-- Nuevo chat -->
-            <div class="new-chat">
-                <button>Nuevo Chat</button>
-            </div>
+            <!-- Botón Nuevo Chat -->
+             <section class="sidebar-section">
+                <h3>Chats</h3>
+                <div class="new-chat box">
+                    <button>Nuevo Chat</button>
+                </div>
+            </section>  
 
             <!-- Contactos -->
             <div class="contacts">
-
-                <div class="contact">
+                <div class="contact box">
+                    <div class="contact-icons">
                     <img src="https://i.pravatar.cc/100?img=1" alt="">
-                    <div>
+                    </div>
+                    <div class="contact-text">
                         <h4>Juanita</h4>
-                        <p>At vero eos et acc...</p>
+                        <p>¿Hablamos hoy?</p>
                     </div>
                 </div>
 
-                <div class="contact">
-                    <img src="https://i.pravatar.cc/100?img=2" alt="">
-                    <div>
+                <div class="contact box">
+                    <div class="contact-icons">
+                        <img src="https://i.pravatar.cc/100?img=2" alt="">
+                    </div>
+                    <div class="contact-text">
                         <h4>Alberto</h4>
-                        <p>Lorem ipsum dolor...</p>
+                        <p>Te envié el documento</p>
                     </div>
                 </div>
 
-                <div class="contact">
-                    <img src="https://i.pravatar.cc/100?img=3" alt="">
-                    <div>
+                <div class="contact box">
+                    <div class="contact-icons">
+                        <img src="https://i.pravatar.cc/100?img=3" alt="">
+                    </div>
+                    <div class="contact-text">
                         <h4>Ignacio</h4>
-                        <p>Quis autem vel eum...</p>
+                        <p>Nos vemos mañana</p>
                     </div>
                 </div>
 
-                <div class="contact">
-                    <img src="https://i.pravatar.cc/100?img=4" alt="">
-                    <div>
+                <div class="contact box">
+                    <div class="contact-icons">
+                        <img src="https://i.pravatar.cc/100?img=4" alt="">
+                    </div>
+                    <div class="contact-text">
                         <h4>Cristian</h4>
-                        <p>Ut enim ad minim...</p>
+                        <p>Perfecto 👍</p>
                     </div>
                 </div>
 
-                <div class="contact">
-                    <img src="https://i.pravatar.cc/100?img=5" alt="">
-                    <div>
+                <div class="contact box">
+                    <div class="contact-icons">
+                        <img src="https://i.pravatar.cc/100?img=5" alt="">
+                    </div>
+                    <div class="contact-text">
                         <h4>María José</h4>
-                        <p>Excepteur sint occaecat...</p>
+                        <p>Gracias por avisar</p>
+                    </div>
+                </div>
+
+                <div class="contact box">
+                    <div class="contact-icons">
+                        <img src="https://i.pravatar.cc/100?img=6" alt="">
+                    </div>
+                    <div class="contact-text">
+                        <h4>fernando</h4>
+                        <p>Almorzando ahora</p>
+                    </div>
+                </div>
+
+                <div class="contact box">
+                    <div class="contact-icons">
+                        <img src="https://i.pravatar.cc/100?img=7" alt="">
+                    </div>
+                    <div class="contact-text">
+                        <h4>Mauricio</h4>
+                        <p>En Vacaciones</p>
+                    </div>
+                </div>
+
+                <div class="contact box">
+                    <div class="contact-icons">
+                        <img src="https://i.pravatar.cc/100?img=8" alt="">
+                    </div>
+                    <div class="contact-text">
+                        <h4>Tito</h4>
+                        <p>En Reunion</p>
                     </div>
                 </div>
 
             </div>
-
         </aside>
 
-        <!-- Main -->
+        <!-- MAIN -->
         <main class="main-content">
-
-            <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" alt="logo">
-
-            <h1>Comienza el Networking</h1>
-
-            <p>
-                Presiona el botón <strong>“Nuevo Chat”</strong> para comenzar a crear nuevas
-                redes de contacto para tu empresa o emprendimiento.
-            </p>
-
+            <div class="main-box">
+                <img src="./assets/img/hand.png" alt="Logo">
+                <h1>Comienza el Networking</h1>
+                <p>
+                    Presiona el botón <strong>“Nuevo Chat”</strong> para comenzar a crear
+                    nuevas redes de contacto para tu empresa o emprendimiento.
+                </p>
+            </div>
         </main>
-
     </div>
-
 </body>
 </html>

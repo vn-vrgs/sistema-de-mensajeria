@@ -1,0 +1,160 @@
+* {
+    background-color: black;
+    color: white;    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+/* SIDEBAR */
+.sidebar {
+    flex: 0 0 320px;
+    border-right: 1px solid #d4d4d4;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+     height: 100vh;
+     overflow-y: scroll
+}
+
+/* BOX GENERAL */
+.box {
+    border-bottom: 1px solid #d4d4d4;
+}
+
+/* ESTADO USUARIO */
+.user-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-text h4 {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.user-text p {
+    font-size: 13px;
+    color: gray;
+}
+
+.user-icons {
+    display: flex;
+    gap: 15px;
+    color: gray;
+    font-size: 18px;
+}
+
+/* BOTÓN */
+.new-chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.new-chat button {
+    padding: 14px 30px;
+    border: none;
+    background-color: #a491d2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.new-chat button:hover {
+    background-color: #8d79c0;
+}
+
+/* CONTACTOS */
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+.contact img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.contact-text h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.contact-text p {
+    color: gray;
+    font-size: 14px;
+}
+
+/* MAIN CONTENT */
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+/* CAJA CENTRAL */
+.main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    gap: 20px;
+}
+
+.main-box img {
+    width: 250px;
+}
+
+.main-box h1 {
+    font-size: 40px;
+    color: #333;
+}
+
+.main-box p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
